@@ -1,0 +1,22 @@
+ls
+pwd
+mkdir shelltest
+ls
+cd shelltest
+pwd
+ls
+sleep 5 &
+sleep 5 &
+sleep 5 &
+wait
+wait
+echo hello
+ls > stuff.txt
+wc stuff.txt
+../hello.py
+../hello.py>stuff.txt
+wc stuff.txt
+cd
+pwd
+ls
+exit
